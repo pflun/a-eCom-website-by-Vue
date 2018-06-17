@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>eCommerce Demo</title>
+    <link rel="stylesheet" href="node_modules/element-ui/lib/theme-chalk/index.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/css/home.css" >
+  </head>
+  <body>
+    <div id="app">
+      <transition :name="transitionName">
+        <router-view></router-view>
+      </transition>
+    </div>
+    <script src="/dist/build.js"></script>
+    <script type="text/javascript">
+
+        // get font-size
+        (function(){
+            function resizeBaseFontSize(){
+                var rootHtml = document.documentElement,
+                    deviceWidth = rootHtml.clientWidth;
+
+                if(deviceWidth > 640){
+                    deviceWidth = 640;
+                }
+
+                rootHtml.style.fontSize = deviceWidth / 7.5 + "px";
+            }
+
+            resizeBaseFontSize();
+
+            window.addEventListener("resize", resizeBaseFontSize, false);
+            window.addEventListener("orientationchange", resizeBaseFontSize, false);
+        })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "posts":[
+  {
+    "id": 1,
+    "price": 100,
+    "img": "1.jpg",
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "id": 2,
+    "price": 200,
+    "img": "2.jpg",
+    "title": "sunt aut facere repellat provident occaecati",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "id": 3,
+    "price": 150,
+    "img": "3.jpg",
+    "title": "repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "id": 4,
+    "price": 170,
+    "img": "4.jpg",
+    "title": "sunt occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "id": 5,
+    "price": 190,
+    "img": "5.jpg",
+    "title": "sunt aut facere repellat reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "id": 6,
+    "price": 230,
+    "img": "6.jpg",
+    "title": "sunt aut facere occaecati excepturi optio",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  }
+  ]
+}

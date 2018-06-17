@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="style.css" media="all">
+</head>
+<body>
+<div id="search-container">
+    <input type="text" name="search" id="search" />
+    <input type="text" disabled="disabled" id="suggestion" />
+</div>
+<br>
+<br>
+<h3>Datalist</h3>
+<input type=”text” list=”idOfDatalist” />
+<datalist id=”idOfDatalist”>
+    <option value=”JavaScript” />
+    <option value=”Java” />
+    <option value=”Python” />
+    <option value=”Ruby” />
+    <option value=”PHP” />
+    <option value=”Scala” />
+</datalist>
+
+<ul class="pg-content list col-sm-12">
+    <h2 class="list-heading">text</h2>
+    <li class="list-h">
+        <span class="sp">text1</span>
+    </li>
+    <li class="list-h">
+        <span class="sp">text2</span>
+    </li>
+    <li class="list-h">
+        <span class="sp">text3</span>
+    </li>
+    <li class="list-h">
+        <span class="sp">text4</span>
+    </li>
+    <li class="list-h">
+        <span class="sp">text5</span>
+    </li>
+    <li class="list-h">
+        <span class="sp">text6</span>
+    </li>
+</ul>
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                <span class="sr-only">Previous</span>
+            </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                <span class="sr-only">Next</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<div class="addGoods">
+    <div class="goods_list">
+        <ul>
+            <li><img class="goods_img" src="../img/goods1.png"><p>木林森男鞋</p>
+                <div class="goods_bottom">¥<span class="goods_price">198.00</span><div class="num"><img class="minus" src="../img/minus.png" /><span>0</span><img class="plus" src="../img/plus.png"></div></div></li>
+            <li><img class="goods_img" src="../img/goods2.png"><p>Meizu/魅族 魅蓝E2</p>
+                <div class="goods_bottom">¥<span class="goods_price">1200.00</span><div class="num"><img class="minus" src="../img/minus.png" /><span>0</span><img class="plus" src="../img/plus.png"></div></div></li>
+            <li><img class="goods_img" src="../img/goods3.png"><p>清风傲骨茶仓</p>
+                <div class="goods_bottom">¥<span class="goods_price">254.00</span><div class="num"><img class="minus" src="../img/minus.png" /><span>0</span><img class="plus" src="../img/plus.png"></div></div></li>
+            <li><img class="goods_img" src="../img/goods4.png"><p>农家小米糯米锅巴</p>
+                <div class="goods_bottom">¥<span class="goods_price">22.90</span><div class="num"><img class="minus" src="../img/minus.png" /><span>0</span><img class="plus" src="../img/plus.png"></div></div></li>
+            <li><img class="goods_img" src="../img/goods5.png"><p>安德玛 UA男子 Curry3</p>
+                <div class="goods_bottom">¥<span  class="goods_price">7.00</span><div class="num"><img class="minus" src="../img/minus.png" /><span>0</span><img class="plus" src="../img/plus.png"></div></div></li>
+        </ul>
+        <div class="pay">共计<span class="totalNum">0</span>件
+            <p>总价¥<span class="totalPrice">0</span></p><button type="submit">去付款</button></div>
+    </div>
+</div>
+
+</body>
+</html>

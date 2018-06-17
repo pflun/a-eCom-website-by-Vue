@@ -1,0 +1,35 @@
+* { margin: 0; padding: 0; }
+html,body { background: #eee; }
+ul,li { list-style: none; }
+a { text-decoration: none; }
+img { vertical-align: middle; }
+.slide-enter,
+.slide_back-enter {
+    position: absolute;
+    width: 100%;
+}
+.slide-leave,
+.slide_back-leave {
+    position: absolute;
+    width: 100%;
+}
+.slide-enter-active,
+.slide_back-enter-active {
+    transition: all 0.3s linear;
+}
+.slide-leave-active {
+    position: absolute;
+    transition: all 0.3s linear;
+    transform: translate(-100%);
+}
+.slide-enter{
+    transform: translateX(100%);
+}
+.slide_back-leave-active {
+    position: absolute;
+    transition: all 0.3s linear;
+    transform: translate(100%);
+}
+.slide_back-enter {
+    transform: translateX(-100%);
+}
